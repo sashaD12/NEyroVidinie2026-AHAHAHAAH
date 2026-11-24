@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+hand_capture/models/*.task
+tests/air_sketch/output/
+*.jsonl

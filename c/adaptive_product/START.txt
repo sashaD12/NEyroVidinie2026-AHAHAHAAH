@@ -1,0 +1,33 @@
+Adaptive Product — финальный модуль (C)
+=====================================
+
+Папка: c/adaptive_product
+
+Что внутри
+----------
+- Ядро по чистовику §2.1–2.2: assess (гистограмма 160x120) → decide → routes
+  (gamma light/dark, stretch, CLAHE) → budget/select
+- CLI: bin/ad_enhance.exe
+- Тесты: bin/test_core.exe
+- Web UI: http://127.0.0.1:8765  (загрузка фото → улучшение)
+
+Сборка
+------
+  build.bat
+
+Тесты
+-----
+  bin\test_core.exe
+
+CLI (фото → улучшенное)
+-----------------------
+  bin\ad_enhance.exe samples\dark.png out\dark_out.png
+
+Web UI
+------
+  run_web.bat
+  Открыть в браузере: http://127.0.0.1:8765
+  Выбрать фото → «Покращити»
+
+Исходный чистовик adaptive_core остался в c/adaptive_core (скелет decide/budget).
+Этот продукт — полная сборка в отдельной папке.

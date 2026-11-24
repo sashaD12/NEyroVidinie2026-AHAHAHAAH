@@ -1,0 +1,8 @@
+﻿train 0 ok
+train 1 ok
+train 2 ok
+train 3 ok
+test 0 ok
+test 1 ok
+test 2 ok
+макс. відхилення відтвореного q старого стенду від збереженого: 7.575750350952148e-05

@@ -1,0 +1,65 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Word / Office lock & temp
+~$*
+*.tmp
+*.temp
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.jsonl
+
+# C / native build artifacts (sources stay tracked)
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.dll
+*.so
+*.dylib
+*.exe
+
+# Local runtime / dump folders
+**/out_enhance/
+**/out_fix/
+**/__pycache__/
+
+# Logs
+*.log
+collect_log.txt
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+credentials*.json
+*.pem
+*.key
